@@ -1,2 +1,2 @@
-# zeebe-operate-k8s-helm
-Zeebe Operate HELM Chart
+# zeebe-cluster-helm
+Zeebe Cluster HELM Chart
