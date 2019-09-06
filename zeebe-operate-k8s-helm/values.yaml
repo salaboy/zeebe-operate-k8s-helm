@@ -1,4 +1,5 @@
 service:
+  type: ClusterIP
   port: 80
 
 resources: 
