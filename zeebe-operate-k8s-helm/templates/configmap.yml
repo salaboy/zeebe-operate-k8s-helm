@@ -1,7 +1,6 @@
 kind: ConfigMap
 metadata:
   name: operate-config
-  namespace: zeebe
 apiVersion: v1
 data:
   application.yml: |
@@ -12,7 +11,7 @@ data:
         # Cluster name
         clusterName: elasticsearch
         # Host
-        host: elasticsearch.zeebe
+        host: elasticsearch
         # Transport port
         port: 9200
       # Zeebe instance
@@ -24,7 +23,7 @@ data:
         # Cluster name
         clusterName: elasticsearch
         # Host
-        host: elasticsearch.zeebe
+        host: elasticsearch
         # Transport port
         port: 9200
         # Index prefix, configured in Zeebe Elasticsearch exporter
