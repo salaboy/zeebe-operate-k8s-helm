@@ -2,7 +2,6 @@ apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
   name: operate
-  namespace: zeebe
   labels:
     app: operate
 spec:
