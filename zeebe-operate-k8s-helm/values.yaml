@@ -1,3 +1,5 @@
+zeebe: "zeebe" #the zeebe service instance where operate will connect
+
 service:
   type: ClusterIP
   port: 80
