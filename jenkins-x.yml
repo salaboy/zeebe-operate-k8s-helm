@@ -1,1 +1,7 @@
 buildPack: charts 
+pipelineConfig:
+  pipelines:
+    release:
+      promote:
+        steps:
+        - command: jx step create pr chart --name zeebe-operate-k8s-helm --version $VERSION  --repo https://github.com/salaboy/zeebe-k8s-full-helm.git 
