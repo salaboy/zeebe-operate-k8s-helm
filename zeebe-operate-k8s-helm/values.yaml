@@ -1,4 +1,5 @@
-zeebe: "zeebe" #the zeebe service instance where operate will connect
+global:
+  zeebe: "zeebe" #the zeebe service instance where operate will connect
 
 service:
   type: ClusterIP
